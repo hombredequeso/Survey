@@ -1,6 +1,8 @@
 ﻿namespace Survey
 
 open Nancy
+open Nancy.Conventions
+open Nancy.TinyIoc
 
 type Bootstrapper() =
     inherit DefaultNancyBootstrapper()
@@ -8,3 +10,7 @@ type Bootstrapper() =
     // by overriding the various methods and properties.
     // For more information https://github.com/NancyFx/Nancy/wiki/Bootstrapper
 
+    override this.ConfigureConventions (conventions) =
+        base.ConfigureConventions(conventions)
+        conventions.StaticContentsConventions.AddDirectory("App", "App")
+        conventions.StaticContentsConventions.AddDirectory("app", "App")

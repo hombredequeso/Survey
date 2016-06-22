@@ -4,5 +4,5 @@ open Nancy
 
 type IndexModule() as x =
     inherit NancyModule()
-    do x.Get.["/"] <- fun _ -> box x.View.["index"]
+    do x.Get.["/"] <- fun _ -> box (x.Response.AsRedirect("/App/index.html"))
 
