@@ -151,32 +151,20 @@
   <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v12.0\WebApplications\Microsoft.WebApplication.targets" Condition="true" />
   <ItemGroup>
-    <Content Include="App\dist"/>
-    <Content Include="App\jspm_packages"/>
-    <Content Include="App\styles"/>
     <Content Include="App\config.js"/>
     <Content Include="App\favicon.ico"/>
     <Content Include="App\index.html"/>
     <Content Include="App\dist\app-build.js"/>
     <Content Include="App\dist\aurelia.js"/>
-    <Content Include="App\jspm_packages\github"/>
-    <Content Include="App\jspm_packages\npm"/>
     <Content Include="App\jspm_packages\system-csp-production.js"/>
     <Content Include="App\jspm_packages\system-polyfills.js"/>
     <Content Include="App\jspm_packages\system.js"/>
-    <Content Include="App\jspm_packages\github\twbs"/>
-    <Content Include="App\jspm_packages\github\twbs\bootstrap@3.3.6"/>
-    <Content Include="App\jspm_packages\github\twbs\bootstrap@3.3.6\fonts"/>
     <Content Include="App\jspm_packages\github\twbs\bootstrap@3.3.6\fonts\glyphicons-halflings-regular.eot"/>
     <Content Include="App\jspm_packages\github\twbs\bootstrap@3.3.6\fonts\glyphicons-halflings-regular.svg"/>
     <Content Include="App\jspm_packages\github\twbs\bootstrap@3.3.6\fonts\glyphicons-halflings-regular.ttf"/>
     <Content Include="App\jspm_packages\github\twbs\bootstrap@3.3.6\fonts\glyphicons-halflings-regular.woff"/>
     <Content Include="App\jspm_packages\github\twbs\bootstrap@3.3.6\fonts\glyphicons-halflings-regular.woff2"/>
-    <Content Include="App\jspm_packages\npm\font-awesome@4.6.1"/>
-    <Content Include="App\jspm_packages\npm\font-awesome@4.6.1\css"/>
-    <Content Include="App\jspm_packages\npm\font-awesome@4.6.1\fonts"/>
     <Content Include="App\jspm_packages\npm\font-awesome@4.6.1\css\font-awesome.min.css"/>
-    <Content Include="App\jspm_packages\npm\font-awesome@4.6.1\fonts\4.4.0"/>
     <Content Include="App\jspm_packages\npm\font-awesome@4.6.1\fonts\fontawesome-webfont.eot"/>
     <Content Include="App\jspm_packages\npm\font-awesome@4.6.1\fonts\fontawesome-webfont.svg"/>
     <Content Include="App\jspm_packages\npm\font-awesome@4.6.1\fonts\fontawesome-webfont.ttf"/>
