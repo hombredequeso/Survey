@@ -230,15 +230,13 @@ System.config({
   },
   bundles: {
     "app-build.js": [
+      "about.html!github:systemjs/plugin-text@0.0.3.js",
+      "about.js",
       "app.html!github:systemjs/plugin-text@0.0.3.js",
       "app.js",
       "blur-image.js",
-      "child-router.html!github:systemjs/plugin-text@0.0.3.js",
-      "child-router.js",
       "main.js",
       "nav-bar.html!github:systemjs/plugin-text@0.0.3.js",
-      "users.html!github:systemjs/plugin-text@0.0.3.js",
-      "users.js",
       "welcome.html!github:systemjs/plugin-text@0.0.3.js",
       "welcome.js"
     ],
@@ -341,11 +339,6 @@ System.config({
     ],
     "main.js": [
       "bootstrap"
-    ],
-    "users.js": [
-      "aurelia-framework",
-      "aurelia-fetch-client",
-      "fetch"
     ]
   }
 });
