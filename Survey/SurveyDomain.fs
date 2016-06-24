@@ -19,17 +19,19 @@ module SurveyDomain =
     }
 
     type Survey = {
+        id: Guid
         Sections: Section list
     }
 
-    let getSection (survey: Survey) (question: SurveyQuestion) : Section option =
-        None 
+    //let getSection (survey: Survey) (question: SurveyQuestion) 
+    //        : Section option =
+    //    None 
 
-    type GetNextQuestionResult =
-        | Question of SurveyQuestion
-        | EndOfSurvey
-        | QuestionNotInSurvey
+    //type GetNextQuestionResult =
+    //    | Question of SurveyQuestion
+    //    | EndOfSurvey
+    //    | QuestionNotInSurvey
 
-    let getNextQuestion (survey: Survey) (lastQuestionAnswered: Guid) (answer: bool) : GetNextQuestionResult =
-        EndOfSurvey
+    //let getNextQuestion (survey: Survey) (lastQuestionAnswered: Guid) (answer: bool) : GetNextQuestionResult =
+    //    EndOfSurvey
 
