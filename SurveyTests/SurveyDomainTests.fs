@@ -1,13 +1,13 @@
 ﻿namespace SurveyTests
 
 open NUnit.Framework
+open System
+open FsUnit
 
 [<TestFixture>]
-module SurveyDomainTests =
+type SurveyDomainTests() =
 
-    open System
-    open FsUnit
 
     [<Test>]
-    let ``Basic Test`` () =
+    member public x.``Basic Test`` () =
         1 |> should equal 1
