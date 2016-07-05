@@ -120,6 +120,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
     <None Include="packages.config" />
+    <Compile Include="Rop.fs" />
     <Compile Include="IndexModule.fs" />
     <Compile Include="SurveyDomain.fs" />
     <Compile Include="SurveyModule.fs" />
