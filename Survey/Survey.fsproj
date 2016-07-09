@@ -120,9 +120,11 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
     <None Include="packages.config" />
+    <Compile Include="Parse.fs" />
     <Compile Include="Rop.fs" />
     <Compile Include="IndexModule.fs" />
     <Compile Include="SurveyDomain.fs" />
+    <Compile Include="SurveyDal.fs" />
     <Compile Include="SurveyModule.fs" />
     <Content Include="readme.txt" />
     <Content Include="App\index.html" />

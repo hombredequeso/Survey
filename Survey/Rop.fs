@@ -201,3 +201,5 @@ module Rop =
         //       That would be a rop result that succeeded with a unit value.
         member this.Zero() =
             succeed ()
+
+    let rop = new RopBuilder()
